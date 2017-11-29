@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": true,
+    "noEmit": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "module": "es6",
+    "paths": {
+      "tests/*": [
+        "tests/*",
+        "typings/ember-cli-mirage/index.d.ts"
+      ],
+      "app/*": [
+        "app/*"
+      ],
+      "lib/*": [
+        "lib/*"
+      ],
+      "ember-qunit": [
+        "node_modules/ember-typings/types/ember-qunit"
+      ],
+      "qunit": [
+        "node_modules/@types/qunit"
+      ],
+      "server": [
+        "typings/ember-cli-mirage/index.d.ts"
+      ]
+    }
+  },
+  "exclude": [
+    "tmp",
+    "dist",
+    "node_modules",
+    "bower_components"
+  ]
+}

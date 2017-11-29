@@ -1,10 +1,10 @@
-import { module } from 'qunit';
+import 'qunit';
 import { resolve } from 'rsvp';
 import startApp from '../helpers/start-app';
 import destroyApp from '../helpers/destroy-app';
 
-export default function(name, options = {}) {
-  module(name, {
+export default function(name, options:any = {}) {
+  QUnit.module(name, {
     beforeEach() {
       this.application = startApp();
 
