@@ -10,14 +10,12 @@
     "baseUrl": ".",
     "module": "es6",
     "paths": {
-      "tests/*": [
+      "typescript-app/tests/*": [
         "tests/*",
         "typings/ember-cli-mirage/index.d.ts"
       ],
-      "app/*": [
-        "app/*"
-      ],
-      "lib/*": [
+      "typescript-app/*": [
+        "app/*",
         "lib/*"
       ],
       "ember-qunit": [
